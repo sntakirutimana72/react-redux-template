@@ -1,14 +1,13 @@
 # React App Template
 
-A React app template that consists of linter configurations and other additional boilerplate code. Built with HTML, CSS, JavaScript, Webpack &amp; React.
+A React app template that consists of linter configurations and other additional boilerplate code. Built with HTML5, CSS, JavaScript &amp; React.
 
 
 ## Built With
 
-- html
-- css
+- HTML5
+- CSS3
 - JavaScript
-- Webpack
 - React
 
 
@@ -49,9 +48,9 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
   ```
     npm run lint:es
   ```
-- For running a _**webpack local server**_, run
+- For __react__ tests, run
   ```
-    npm start
+    npm test
   ```
 
 
