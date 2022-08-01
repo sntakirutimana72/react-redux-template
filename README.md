@@ -7,13 +7,14 @@ A React app template that consists of linter configurations and other additional
 
 - HTML5
 - CSS3
-- JavaScript
+- Redux
 - React
+- JavaScript
 
 
 ## Live Demo
 
-_live demo links go here_
+__live demo links go here__
 
 
 ## Getting Started
@@ -27,30 +28,41 @@ To get a copy of this project running on your local computer, do the followings:
 
 ### Setup
 
-- Install _VSCode_ ([link](https://code.visualstudio.com/download))
+- Install __VSCode__ ([link](https://code.visualstudio.com/download))
 - Clone this project repository on your local computer. ([link](../../))
 - Open the project directory with _VSCode_
 
 ### Install
 
-Open _Terminal/Shell_ inside your _VSCode_ and run
+Open __Terminal/Shell__ inside your __VSCode__ and run
   ```
     npm install --force
   ```
 
-### Run tests
+### Run Tests
 
-- For _stylelint_ tests, run
+- For __stylelint__ tests, run
   ```
-    npm run lint:style
+    npm run stylelint
   ```
-- For _eslint_ tests, run
+- For __eslint__ tests, run
   ```
-    npm run lint:es
+    npm run eslint
   ```
 - For __react__ tests, run
   ```
     npm test
+  ```
+
+### Run Tests Fix
+
+- For __stylelint__ tests, run
+  ```
+    npm run stylelint-fix
+  ```
+- For __eslint__ tests, run
+  ```
+    npm run eslint-fix
   ```
 
 
